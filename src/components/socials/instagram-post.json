@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_socials_instagram_posts",
+  "info": {
+    "displayName": "Instagram Post",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "blocks"
+    }
+  }
+}

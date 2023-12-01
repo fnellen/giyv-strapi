@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_socials_socials",
+  "info": {
+    "displayName": "Social-Platform",
+    "icon": "thumbUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "instagram",
+        "facebook",
+        "linked-in",
+        "twitter / x"
+      ]
+    }
+  }
+}

@@ -113,5 +113,4 @@ dist
 build
 .strapi-updater.json
 portfolio-strapi-404218-0af19b0d1832.json
-config/plugins.ts
 google_bucketservice_account.json

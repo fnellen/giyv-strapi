@@ -12,6 +12,9 @@ if (fs.existsSync(jsonFilePath)) {
 }
 
 export default ({ env }) => ({
+    seo: {
+        enabled: true,
+    },
     attributes: {
         title: {
             type: 'string',

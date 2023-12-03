@@ -25,6 +25,12 @@ export default ({ env }) => ({
             customField: "plugin::field-uuid.uuid"
         },
     },
+    "local-image-sharp": {
+        config: {
+            cacheDir: ".image-cache",
+            maxAge: 31536000
+        },
+    },
     email: {
         config: {
             provider: 'strapi-provider-email-resend',

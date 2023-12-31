@@ -116,6 +116,14 @@
         }
       },
       "component": "shared.seo"
+    },
+    "tags": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

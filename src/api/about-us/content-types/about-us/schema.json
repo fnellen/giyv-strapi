@@ -25,7 +25,7 @@
       },
       "required": true
     },
-    "description": {
+    "excerpt": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -34,18 +34,37 @@
       "type": "text",
       "required": true
     },
-    "image": {
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
+      }
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
       },
+      "type": "richtext",
       "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

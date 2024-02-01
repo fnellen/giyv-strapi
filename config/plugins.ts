@@ -57,4 +57,23 @@ export default ({ env }) => ({
             },
         },
     },
+    ezforms: {
+        config: {
+            captchaProvider: {
+                name: 'recaptcha',
+                config: {
+                    secretKey: env('RECAPTCHA_SECRET_KEY'),
+                    minimumScore: 0.5
+                }
+            },
+            notificationProviders: [{
+                name: 'email',
+                enabled: true,
+                config: {
+                    subject: "Contact form submitted", // Optional
+                    from: 'noreply@giyv.eu' // Required
+                }
+            },]
+        }
+    }
 });

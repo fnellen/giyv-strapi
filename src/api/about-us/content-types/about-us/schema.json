@@ -56,7 +56,7 @@
       "type": "richtext",
       "required": true
     },
-    "SEO": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

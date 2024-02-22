@@ -1325,6 +1325,12 @@ export interface ApiGroupGroup extends Schema.CollectionType {
           localized: false;
         };
       }>;
+    seo: Attribute.Component<'shared.seo'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

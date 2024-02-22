@@ -74,7 +74,7 @@ export interface SocialsSocials extends Schema.Component {
   attributes: {
     url: Attribute.String;
     platform: Attribute.Enumeration<
-      ['instagram', 'facebook', 'linked-in', 'twitter / x']
+      ['Instagram', 'Facebook', 'LinkedIn', 'Twitter', 'Website']
     >;
   };
 }

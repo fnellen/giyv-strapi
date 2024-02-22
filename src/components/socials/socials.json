@@ -13,10 +13,11 @@
     "platform": {
       "type": "enumeration",
       "enum": [
-        "instagram",
-        "facebook",
-        "linked-in",
-        "twitter / x"
+        "Instagram",
+        "Facebook",
+        "LinkedIn",
+        "Twitter",
+        "Website"
       ]
     }
   }
